@@ -1,5 +1,6 @@
 
 div
-    h2.text-center Longin 
-
-    p Inicia Sesión
+    if autenticado 
+        p usuario Autenticado
+    else
+        p Inicia Sesión
